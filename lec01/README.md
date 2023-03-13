@@ -72,3 +72,19 @@ len(string) ， 返回字符串string的长度
 索引下标，与绝大多数编程语言一样，从0开始编号。
 
 负数索引，表示倒数第n个字符。
+
+索引超出字符串的范围，触发错误：IndexError: string index out of range
+
+字符串不支持修改！！！
+
+
+#### 切片
+string[start:end]，切片操作，指的是，字符串string的从start到end位置的内容。
+但是，包含start位置，不包含end位置。
+
+如果end不写，表示包含到字符串string的最终结尾。  
+如果start不写，表示从字符串的第0号位置开始。
+
+string[start:end:step]  
+从start到end，以step为间隔，跳着索引位置。
+
